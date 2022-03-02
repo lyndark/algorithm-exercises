@@ -17,9 +17,11 @@ public class Exercicio14 {
 
         System.out.print("Dias de aluguel: ");
         float rent = scanner.nextFloat();
+
+        scanner.close();
          
         float dayRent = rent * 90;
-        float kmRun = km * 20 / 100;
+        float kmRun = km * 0.2f;
         float totalPayable = dayRent + kmRun;
 
         System.out.println("Total a pagar R$" + totalPayable); 

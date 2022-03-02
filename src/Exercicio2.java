@@ -16,6 +16,8 @@ public class Exercicio2 {
         System.out.print("Qual é o seu nome? ");
         String name = scanner.next();
 
+        scanner.close();
+
         System.out.println("Olá, " + name + ". É um prazer te conhecer!");
     }
 }

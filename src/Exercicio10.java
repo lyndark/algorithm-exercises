@@ -16,6 +16,8 @@ public class Exercicio10 {
         System.out.print("Altura da parede: ");
         double high = scanner.nextDouble();
 
+        scanner.close();
+
         double amountOfInk = (breadth * high) / 2;
 
         System.out.println("Quantidade de tinta necessária para o serviço: " + amountOfInk + "L.");

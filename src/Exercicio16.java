@@ -18,6 +18,8 @@ public class Exercicio16 {
         System.out.print("Quantos anos fumando? ");
         float yearsSmoking = scanner.nextInt();
 
+        scanner.close();
+
         float minutesOfLife = cigarettePerDay * 10;
         float hoursOfLife = minutesOfLife / 60;
         float daysOfLife = hoursOfLife / 24;

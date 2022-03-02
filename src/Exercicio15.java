@@ -14,6 +14,8 @@ public class Exercicio15 {
         System.out.print("Número de dias trabalhados em um mês: ");
         int daysWorked = scanner.nextInt();
 
+        scanner.close();
+
         double wage = daysWorked * 25 * 8;
 
         System.out.println("Salário do Funcionário R$" + wage);

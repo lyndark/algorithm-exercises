@@ -12,6 +12,8 @@ public class Exercicio9 {
 
         System.out.print("Dinheiro em R$: ");
         double reais = scanner.nextDouble();
+
+        scanner.close();
         
         double converting = reais / 3.45;
 

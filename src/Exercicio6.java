@@ -1,6 +1,6 @@
 package src;
 
-/*Faça um programa que leia um número inteiro e mostre o seu antecessor e seu 
+/* Faça um programa que leia um número inteiro e mostre o seu antecessor e seu 
 sucessor.
 Ex: 
 Digite um número: 9
@@ -19,6 +19,8 @@ public class Exercicio6 {
 
         int antecedent = number - 1;
         int heir = number + 1;
+
+        scanner.close();
 
         System.out.println("O antecessor de " + number + " é " + antecedent + ".");
         System.out.println("O sucessor de " + number + " é " + heir + ".");

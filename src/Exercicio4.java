@@ -1,11 +1,11 @@
 package src;
 
-/*Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório 
+/* Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório 
 entre eles.
 Ex:
 Digite um valor: 8
 Digite outro valor: 5
-A soma entre 8 e 5 é igual a 13.*/
+A soma entre 8 e 5 é igual a 13. */
 
 import java.util.Scanner;
 
@@ -19,6 +19,8 @@ public class Exercicio4 {
 
         System.out.print("Digite outro valor: ");
         int valueTwo = scanner.nextInt();
+
+        scanner.close();
 
         int sumOfNumbers = valueOne + valueTwo;
 

@@ -1,8 +1,7 @@
 package src;
 
 /**
- * Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
- */
+ * Escreva um programa que mostre na tela a mensagem "Olá, Mundo!" */
 
 public class Exercicio1 {
 

@@ -13,6 +13,8 @@ public class Exercicio12 {
         System.out.print("Preço do produto R$");
         float productPrice = scanner.nextFloat();
 
+        scanner.close();
+
         float discountedProduct = (productPrice * 5) / 100;
         float finalPrice = productPrice - discountedProduct;
 

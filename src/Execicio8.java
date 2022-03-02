@@ -22,6 +22,8 @@ public class Execicio8 {
         System.out.print("Digite uma distância em metros: ");
         double distance = scanner.nextDouble();
 
+        scanner.close();
+
         double distanceKm = distance * 1000;
         double distanceHm = distance * 100;
         double distanceDm = distance * 10;

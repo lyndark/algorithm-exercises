@@ -1,6 +1,6 @@
 package src;
 
-/*Faça um programa que leia as duas notas de um aluno em uma matéria e mostre 
+/* Faça um programa que leia as duas notas de um aluno em uma matéria e mostre 
 na tela a sua média na disciplina.
 Ex: 
 Nota 1: 4.5
@@ -19,6 +19,8 @@ public class Exercicio5 {
 
         System.out.print("Nota 2: ");
         double noteTwo = scanner.nextDouble();
+
+        scanner.close();
 
         double medium = (noteOne + noteTwo) / 2;
 

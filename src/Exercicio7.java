@@ -17,11 +17,12 @@ public class Exercicio7 {
         System.out.print("Digite um número: ");
         double number = scanner.nextDouble();
 
+        scanner.close();
+
         double numberDouble = number + number;
         double thirdPart = number / 3;
 
         System.out.println("O dobro de " + number + " é " + numberDouble);
         System.out.format("A terça parte de %.2f é  %.2f" , number , thirdPart);
-
     } 
 }

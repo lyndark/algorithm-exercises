@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Exercicio25 {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in); 
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Tamanho da reta 1: ");
         float straightOne = scanner.nextFloat();
@@ -23,11 +23,10 @@ public class Exercicio25 {
 
         scanner.close();
 
-        if( (straightOne < straightTwo + straightThree) && 
-        (straightTwo < straightOne + straightThree)){
+        if ((straightOne < straightTwo + straightThree) && (straightTwo < straightOne + straightThree)) {
             System.out.println("As medidas formam um triângulo");
         } else {
             System.out.println("As médidas não formam um triângulo");
         }
-    } 
+    }
 }

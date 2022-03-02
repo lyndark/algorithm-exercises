@@ -13,6 +13,8 @@ public class Exercicio13 {
         System.out.print("Salário atual R$");
         float currentSalary = scanner.nextFloat();
 
+        scanner.close();
+
         float increase = currentSalary * 15 / 100;
         float salaryWithIncrease = currentSalary + increase;
 

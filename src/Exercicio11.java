@@ -1,6 +1,6 @@
 package src;
 
-/*  Desenvolva uma lógica que leia os valores de A, B e C de uma equação do 
+/* Desenvolva uma lógica que leia os valores de A, B e C de uma equação do 
 segundo grau e mostre o valor de Delta.*/ 
 
 import java.util.Scanner;
@@ -18,6 +18,8 @@ public class Exercicio11 {
 
         System.out.print("C: ");
         float c = scanner.nextFloat();
+
+        scanner.close();
 
         float delta = (b * b) - (4 * a * c);
 
