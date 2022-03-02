@@ -22,7 +22,7 @@ public class Exercicio16 {
         float hoursOfLife = minutesOfLife / 60;
         float daysOfLife = hoursOfLife / 24;
 
-        float total = yearsSmoking * daysOfLife;
+        float total = yearsSmoking * daysOfLife * 365;
 
         System.out.println("Total de dias perdido: " + total);
     }
